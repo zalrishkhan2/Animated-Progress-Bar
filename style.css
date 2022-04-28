@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h1 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background: rgb(114, 108, 108);
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress div {
+    width: 0%;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress div span {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    float: right;
+    margin-top: -15px;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.js {
+    background: rgb(145, 175, 34);
+    animation: js 1s linear forwards;
+}
+
+.bootstrap {
+    background: rgb(43, 66, 199);
+    animation: bootstrap 1s linear forwards;
+}
+
+.react {
+    background: rgb(180, 57, 149);
+    animation: react 1s linear forwards;
+}
+
+.saas {
+    background: rgb(49, 175, 158);
+    animation: saas 1s linear forwards;
+}
+
+.jquery {
+    background: rgb(106, 70, 236);
+    animation: jquery 1s linear forwards;
+}
+
+.js span {
+    border: 2px solid rgb(145, 175, 34);
+}
+
+.bootstrap span {
+    border: 2px solid rgb(43, 66, 199);
+}
+
+.react span {
+    border: 2px solid rgb(180, 57, 149);
+}
+
+.saas span {
+    border: 2px solid rgb(49, 175, 158);
+}
+
+.jquery span {
+    border: 2px solid rgb(106, 70, 236);
+}
+
+@keyframes js {
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes jquery {
+    100% {
+        width: 63%;
+    }
+}
+
+@keyframes react {
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes saas {
+    100% {
+        width: 79%;
+    }
+}
+
+@keyframes bootstrap {
+    100% {
+        width: 86%;
+    }
+}
